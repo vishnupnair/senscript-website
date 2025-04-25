@@ -1,23 +1,1288 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Senscript Technologies</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    
+<div class="canvas-container">
+    <canvas id="canvas"></canvas>
+</div>
+<!-- partial:index.partial.html -->
+<div class="landingpage">
+  <div class="navbar">
+    <a class="navlogo">SENSCRIPT</a>
+    <button class="hamburger">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <path d="M3 12h18M3 6h18M3 18h18"/>
+        </svg>
+      </button>
+    <div class="navlinkwrap">
+      <span class="navlink selectedlink">Home</span>
+      <span class="navlink">My Profile</span>
+      <span class="navlink">Activity</span>
+      <span class="navlink">How It Works</span>
+    </div>
+    <div class="buttonwrap">
+      <button class="createbtn selectedbtn">CREATE</button>
+      <button class="createbtn">SIGN IN</button>
+    </div>
+  </div>
+  <div class="box" id = "start">
+    <div class="infobox">
+      <p class="infobox-boldtext">
+        
+          Discover , Design , and Deliver with Artificial Intelligence
+      </p>
+      <p class="infobox-slimtext">
+        In aenean posuere lorem risus nec. Tempor tincidunt aenean purus purus vestibulum nibh mi venenatis
+      </p>
+      <div class="infobox-btnwrapper">
+        <button class="infobox-explorebtn selected">Explore</button>
+        <button class="infobox-createbtn">Create</button>
+      </div>
+    </div>
+    <div class="display">
+      <img class="display-nft" src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="unsplash-OG44d93i-NJk" border="0">
+      <div class="infowrapper">
+        <div class="info">
+          <img class="info-img" src="https://images.unsplash.com/photo-1535207010348-71e47296838a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80" alt="unsplash-OG44d93i-NJk" border="0">
+          <div>
+            <p>Laura</p>
+            <p>0.21 Weth</p>
+          </div>
+  </div>
+        <div class="info2">
+          <p>WE ARE HERE</p>
+          <div class="iconwrapper">
+            <svg width="22" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.7365 2C3.6575 2 1.5 3.8804 1.5 6.5135c0 3.1074 2.3236 5.9603 4.8612 8.1207 1.2458 1.0606 2.4954 1.9137 3.4352 2.5022.4692.2937.8593.5203 1.1305.6727L11 17.85l.0731-.0409a27.984 27.984 0 0 0 1.1304-.6727c.9399-.5885 2.1895-1.4416 3.4353-2.5022C18.1764 12.4738 20.5 9.6209 20.5 6.5135 20.5 3.8805 18.3425 2 16.2635 2c-2.1054 0-3.8008 1.389-4.552 3.6426a.75.75 0 0 1-1.423 0C9.5373 3.389 7.8418 2 5.7365 2ZM11 18.7027l.3426.6672a.7502.7502 0 0 1-.6852 0L11 18.7027ZM0 6.5135C0 3.052 2.829.5 5.7365.5 8.0298.5 9.8808 1.7262 11 3.6048 12.1192 1.7262 13.9702.5 16.2635.5 19.171.5 22 3.052 22 6.5135c0 3.8183-2.8014 7.06-5.3888 9.2628-1.3167 1.121-2.6296 2.0166-3.6116 2.6314-.4918.308-.9025.5467-1.1918.7092a19.142 19.142 0 0 1-.4301.2347l-.0248.013-.007.0036-.0021.0011c-.0003.0001-.0012.0006-.3438-.6666-.3426.6672-.3424.6673-.3426.6672l-.0033-.0017-.007-.0036-.0248-.013a19.142 19.142 0 0 1-.4301-.2347 29.324 29.324 0 0 1-1.1918-.7092c-.982-.6148-2.295-1.5104-3.6116-2.6314C2.8014 13.5735 0 10.3318 0 6.5135Z" fill="#E0E0E0"/>
+  </svg>
+            25
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="auction">
+    <div class="title">
+      <p class="titlebold">Hot auctions</p>
+      <p class="titleslim">View all</p>
+    </div>
+    <div class="nft">
+      <div class=item>
+        <img class="item-img" src="https://i.ibb.co/RhpnYWV/Enis-cyberpunk-ottoman-sultan-in-a-cyberpunk-city-8-K-hyperreali-e7506c88-2574-487c-838e-5bb8618dd1c.png" alt="unsplash-OG44d93i-NJk" border="0">
+        <div class="item-title">
+          <p>Lorem Ipsum</p>
+          <p>1.20 Weth</p>
+        </div>
+        <p class="item-date">Ends in 01.34.45</p>
+      </div>
+      <div class=item>
+        <img class="item-img" src="https://i.ibb.co/SrNRC0b/Erkan-Erdil-angry-soviet-officer-shouting-his-soldiers8k-octane-7b802966-9d4e-4c6e-ac37-d4f751419081.png" alt="unsplash-OG44d93i-NJk" border="0">
+        <div class="item-title">
+          <p>Lorem Ipsum</p>
+          <p>1.20 Weth</p>
+        </div>
+        <p class="item-date">Ends in 01.34.45</p>
+      </div>
+      <div class=item>
+        <img class="item-img" src="https://i.ibb.co/YjzSzjk/Erkan-Erdil-very-technical-and-detailed-blueprint-of-wolf-carve-bd937607-6a4f-4525-b4f2-b78207e64662.png" border="0">
+        <div class="item-title">
+          <p>Lorem Ipsum</p>
+          <p>1.20 Weth</p>
+        </div>
+        <p class="item-date">Ends in 01.34.45</p>
+      </div>
+      <div class=item>
+        <img class="item-img" src="https://i.ibb.co/VLfJ41h/MR-ROBOT-two-cyberpunk-cowboys-dueling-6ae4203d-3539-4033-a9d9-80d747ac6498.png" alt="unsplash-OG44d93i-NJk" border="0">
+        <div class="item-title">
+          <p>Lorem Ipsum</p>
+          <p>1.20 Weth</p>
+        </div>
+        <p class="item-date">Ends in 01.34.45</p>
+      </div>
+    </div>
+  </div>
+  <div class="started">
+    <p class="started-boldtext">Getting started</p>
+    <p class="started-slimtext">Eu, molestie commodo, enim pellentesque turpis integer sagittis</p>
+    <div class="started-items">
+      <div class="itemwrapper">
+        <div class="started-items-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+            <path style="stroke:none;fill-rule:nonzero;fill:#e0e0e0;fill-opacity:1" d="M24.7969 14.6719c.4375-.4414.4375-1.1524 0-1.5938-.4414-.4375-1.1524-.4375-1.5938 0L16.5 19.7851l-2.9531-2.957c-.4414-.4375-1.1524-.4375-1.5938 0-.4375.4414-.4375 1.1524 0 1.5938l3.75 3.75a1.1246 1.1246 0 0 0 1.5938 0Zm0 0"/>
+            <path style="stroke:none;fill-rule:evenodd;fill:#e0e0e0;fill-opacity:1" d="M18.8086.957a2.6005 2.6005 0 0 0-1.6172 0L4.8164 4.9688C3.7344 5.3202 3 6.3241 3 7.4648V15c0 9.2852 5.6563 16.0586 14.1016 19.246a2.5853 2.5853 0 0 0 1.7968 0C27.3438 31.0587 33 24.2853 33 15V7.4648a2.6182 2.6182 0 0 0-1.8164-2.496Zm-.9219 2.1368a.3738.3738 0 0 1 .2266 0l12.375 4.0117c.1601.0547.2617.1992.2617.3593V15c0 8.1914-4.9219 14.2227-12.6445 17.1367a.2815.2815 0 0 1-.211 0C10.172 29.2227 5.25 23.1914 5.25 15V7.4648c0-.1601.1016-.3046.2617-.3593Zm0 0"/>
+          </svg>
+</div>
+        <p>Connect your wallet</p>
+      </div>
+      <div class="itemwrapper">
+        <div class="started-items-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+    <path style="stroke:none;fill-rule:evenodd;fill:#bdbdbd;fill-opacity:1" d="M4.125 3C2.6758 3 1.5 4.1758 1.5 5.625v5.25c0 1.4492 1.1758 2.625 2.625 2.625h27.75c1.4492 0 2.625-1.1758 2.625-2.625v-5.25C34.5 4.1758 33.3242 3 31.875 3Zm27.75 2.25H4.125c-.207 0-.375.168-.375.375v5.25c0 .207.168.375.375.375h27.75c.207 0 .375-.168.375-.375v-5.25c0-.207-.168-.375-.375-.375Zm0 0"/>
+    <path style="stroke:none;fill-rule:nonzero;fill:#bdbdbd;fill-opacity:1" d="M4.125 15c.621 0 1.125.504 1.125 1.125v14.25c0 .207.168.375.375.375h24.75c.207 0 .375-.168.375-.375v-14.25c0-.621.504-1.125 1.125-1.125S33 15.504 33 16.125v14.25C33 31.8242 31.8242 33 30.375 33H5.625C4.1758 33 3 31.8242 3 30.375v-14.25C3 15.504 3.504 15 4.125 15Zm0 0"/>
+    <path style="stroke:none;fill-rule:nonzero;fill:#bdbdbd;fill-opacity:1" d="M14.625 17.25c-.621 0-1.125.504-1.125 1.125s.504 1.125 1.125 1.125h6.75c.621 0 1.125-.504 1.125-1.125s-.504-1.125-1.125-1.125Zm0 0"/>
+  </svg>
+        </div>
+        <p>Posuere urna, sit amet molestie leo</p>
+      </div>
+      <div class="itemwrapper">
+        <div class="started-items-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="px" viewBox="0 0 36 31">
+    <path style="stroke:none;fill-rule:evenodd;fill:#bdbdbd;fill-opacity:1" d="M2.832 2.9219c-.2148 0-.3867.1758-.3867.3906v24.375c0 .2148.1719.3906.3867.3906h4.9453l13.332-14.1875c1.0548-1.121 2.8165-1.1445 3.8985-.0508l8.5469 8.6407V3.3125c0-.2148-.1719-.3906-.3867-.3906Zm30.336 27.5156H2.832c-1.5039 0-2.7226-1.2305-2.7226-2.75V3.3125c0-1.5195 1.2187-2.75 2.7226-2.75h30.336c1.5039 0 2.7226 1.2305 2.7226 2.75v24.375c0 1.5195-1.2187 2.75-2.7226 2.75ZM22.8008 15.5156 10.996 28.0781H33.168c.2148 0 .3867-.1758.3867-.3906v-1.871L23.3594 15.5077a.388.388 0 0 0-.5586.0078Zm-9.4688-4.3398c0 1.5195-1.2187 2.75-2.7226 2.75-1.5 0-2.7188-1.2305-2.7188-2.75 0-1.5196 1.2188-2.75 2.7188-2.75 1.5039 0 2.7226 1.2304 2.7226 2.75Zm2.336 0c0 2.8242-2.2657 5.1094-5.0586 5.1094-2.789 0-5.0547-2.2852-5.0547-5.1094s2.2656-5.1094 5.0547-5.1094c2.793 0 5.0586 2.2852 5.0586 5.1094Zm0 0"/>
+  </svg>
+        </div>
+        <p>Semper pretium libero sed quam ac integer ut</p>
+      </div>
+      <div class="itemwrapper">
+        <div class="started-items-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">
+    <path style="stroke:none;fill-rule:evenodd;fill:#bdbdbd;fill-opacity:1" d="M30.9453.5a16.7245 16.7245 0 0 0-11.4687 4.5508l-2.0274 1.914a35.9135 35.9135 0 0 0-2.3984 2.4805h-7.836c-.957 0-1.8437.5-2.3359 1.3203L.668 17.7891c-.1952.3242-.2226.7226-.0702 1.0664.1523.3476.4609.5976.828.6758l7.1134 1.496c.0586.0782.125.1485.1992.2188l3.1054 2.914 2.9102 3.1016c.0703.0742.1406.1406.2188.1992l1.496 7.1133c.0782.3672.3282.6758.6758.8281a1.158 1.158 0 0 0 1.0664-.0703l7.0235-4.211a2.7222 2.7222 0 0 0 1.3203-2.3358v-7.836a36.8748 36.8748 0 0 0 2.4844-2.3984l1.9101-2.0274A16.7411 16.7411 0 0 0 35.5 5.0508l-.004-1.8281C35.496 1.7187 34.2774.5 32.7774.5Zm-6.7226 22.3398a39.89 39.89 0 0 1-1.582 1.1172l-5.2813 3.5196 1.0547 5.0156 5.621-3.3711c.1172-.0703.1876-.1992.1876-.336ZM8.5234 18.6406l3.5196-5.2812a34.8776 34.8776 0 0 1 1.1172-1.582H7.2148a.3952.3952 0 0 0-.3359.1913L3.508 17.586ZM21.0781 6.75a14.3862 14.3862 0 0 1 9.8672-3.918h1.832c.211 0 .3868.1758.3868.3907v1.828c0 3.672-1.3985 7.2032-3.9141 9.8712l-1.9102 2.0273a34.7388 34.7388 0 0 1-5.996 5.0664l-5.1133 3.4102-2.711-2.8906c-.0195-.0157-.0351-.0352-.0547-.0508l-2.8906-2.7149 3.4102-5.1172c1.457-2.1796 3.1523-4.1914 5.0625-5.9921Zm5.4766 5.0273c0 1.2891-1.043 2.332-2.332 2.332-1.2891 0-2.332-1.0429-2.332-2.332 0-1.289 1.0429-2.332 2.332-2.332 1.289 0 2.332 1.043 2.332 2.332ZM9.4453 32c1.3985-1.3984 1.3985-4.043 0-5.4453-1.4023-1.3985-4.0469-1.3985-5.4453 0-1.879 1.8828-2.246 6.0703-2.3164 7.3789a.3609.3609 0 0 0 .3828.3828C3.375 34.2461 7.5625 33.879 9.4454 32Zm0 0"/>
+  </svg>
+        </div>
+        <p>Lectus volutpat magna vitae in arcu</p>
+      </div>
+    </div>
+  </div>
+  <div class="discover">
+    <div class="discover-title">
+      <p>Discover</p>
+      <div class="filters">
+        <div class="filter">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 14 12">
+  <path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:#f2f2f2;stroke-opacity:1;stroke-miterlimit:4" d="M1.731 1.002h13.1976M1.731 4.998h9.134M1.731 9h6.0893m4.0636 0 4.0575-4.002m0 0L20.005 9m-4.0636-4.002v12" transform="scale(.63636 .66667)"/>
+</svg>
+          Category
+        </div>
+        <div class="filter">
+          Cheapest
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="6" viewBox="0 0 11 6">
+  <path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:#f2f2f2;stroke-opacity:1;stroke-miterlimit:4" d="M15.4787 1.002 8.3732 7.998 1.2678 1.002" transform="scale(.64706 .66667)"/>
+</svg>
+        </div>
+        <div class="filter">
+          Newest
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="6" viewBox="0 0 11 6">
+  <path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:#f2f2f2;stroke-opacity:1;stroke-miterlimit:4" d="M15.4787 1.002 8.3732 7.998 1.2678 1.002" transform="scale(.64706 .66667)"/>
+</svg>
+        </div>
+        <button class="filterbtn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 14 14">
+  <path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:#fff;stroke-opacity:1;stroke-miterlimit:4" d="M1.1546 1.9978c0-.5525.4553-.999 1.0028-.999h16.273c.5537 0 1.0028.4465 1.0028.999v2.578c0 .2735-.1046.5358-.3014.72l-6.5092 6.4062c-.1846.1897-.2953.4464-.2953.7199V15l-4.0606 4.0011V12.422c0-.2735-.1046-.5302-.3015-.7199l-6.503-6.4062c-.1907-.1842-.3076-.4465-.3076-.72Zm0 0" transform="matrix(.63492 0 0 .7 .3333 0)"/>
+</svg>
+          Filter
+        </button>
+      </div>
+    </div>
+    <div class="discover-items">
+      <div class=item>
+        <img class="item-img" src="https://i.ibb.co/ZTZz9t0/Erkan-Erdil-Concept-art-of-collosal-dark-scaled-huge-winged-fir-09384960-3c02-48f6-ad40-76d179a7e0a3.png" alt="unsplash-OG44d93i-NJk" border="0">
+        <div class="item-title">
+          <p>Lorem Ipsum</p>
+          <p>1.20 Weth</p>
+        </div>
+        <p class="item-date">Ends in 01.34.45</p>
+      </div>
+      <div class=item>
+        <img class="item-img" src="https://i.ibb.co/SrNRC0b/Erkan-Erdil-angry-soviet-officer-shouting-his-soldiers8k-octane-7b802966-9d4e-4c6e-ac37-d4f751419081.png" alt="unsplash-OG44d93i-NJk" border="0">
+        <div class="item-title">
+          <p>Lorem Ipsum</p>
+          <p>1.20 Weth</p>
+        </div>
+        <p class="item-date">Ends in 01.34.45</p>
+      </div>
+      <div class=item>
+        <img class="item-img" src="https://i.ibb.co/2KsmyYm/m-djoourney.png" border="0">
+        <div class="item-title">
+          <p>Lorem Ipsum</p>
+          <p>1.20 Weth</p>
+        </div>
+        <p class="item-date">Ends in 01.34.45</p>
+      </div>
+      <div class=item>
+        <img class="item-img" src="https://i.ibb.co/VLfJ41h/MR-ROBOT-two-cyberpunk-cowboys-dueling-6ae4203d-3539-4033-a9d9-80d747ac6498.png" alt="unsplash-OG44d93i-NJk" border="0">
+        <div class="item-title">
+          <p>Lorem Ipsum</p>
+          <p>1.20 Weth</p>
+        </div>
+        <p class="item-date">Ends in 01.34.45</p>
+      </div>
+      <div class=item>
+        <img class="item-img" src="https://i.ibb.co/J5QHZwY/MR-ROBOT-cyberpunk-rose-with-foggy-weather-5eb12baa-e7f6-4c4f-9cba-9654c0de3f51.png" alt="unsplash-OG44d93i-NJk" border="0">
+        <div class="item-title">
+          <p>Lorem Ipsum</p>
+          <p>1.20 Weth</p>
+        </div>
+        <p class="item-date">Ends in 01.34.45</p>
+      </div>
+      <div class=item>
+        <img class="item-img" src="https://i.ibb.co/Trpxy8p/2123.png" alt="unsplash-OG44d93i-NJk" border="0">
+        <div class="item-title">
+          <p>Lorem Ipsum</p>
+          <p>1.20 Weth</p>
+        </div>
+        <p class="item-date">Ends in 01.34.45</p>
+      </div>
+      <div class=item>
+        <img class="item-img" src="https://i.ibb.co/2FGw8Fc/Erkan-Erdil-male-warrior-with-huge-katana-fighting-hordes-of-en-02ca9519-3e0d-4aa5-9d70-f16ef0b0a0ff.png" alt="unsplash-OG44d93i-NJk" border="0">
+        <div class="item-title">
+          <p>Lorem Ipsum</p>
+          <p>1.20 Weth</p>
+        </div>
+        <p class="item-date">Ends in 01.34.45</p>
+      </div>
+      <div class=item>
+        <img class="item-img" src="https://i.ibb.co/7Cc7PnV/Erkan-Erdil-futuristic-Tiger-I-tank-fires-explosive-shell-to-bu-b9868ef6-7525-493e-b0f5-0bb3200e5abb.png" alt="unsplash-OG44d93i-NJk" border="0">
+        <div class="item-title">
+          <p>Lorem Ipsum</p>
+          <p>1.20 Weth</p>
+        </div>
+        <p class="item-date">Ends in 01.34.45</p>
+      </div>
+    </div>
+    <button class="discover-loadbtn">LOAD MORE</button>
+  </div>
+  <div class="footer">
+    <div class="footer-main">
+      Etiam et id tincidunt faucibus mollis a sociis pretium fermentum quis magna faucibus lacus.
+    </div>
+    <div class="footer-navigate">
+      <div class="nav">
+        <h5>Marketplace</h5>
+        <p>Home</p>
+        <p>Activity</p>
+        <p>Discover</p>
+        <p>Learn more</p>
+      </div>
+      <div class="nav">
+        <h5>Company</h5>
+        <p>About Us</p>
+        <p>Services</p>
+        <p>Portfolio</p>
+      </div>
+      <div class="nav">
+        <h5>Contact</h5>
+        <p>Facebook</p>
+        <p>Instagram</p>
+        <p>Twitter</p>
+        <p>Email</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer2" id = "end">
+    <div></div>
+    <p>Copyright 2021 Gaslur</p>
+  </div>
+</div>
+<!-- partial -->
+<script type="x-shader/x-vertex" id="backdrop-vs" >
+precision highp float;
+
+attribute vec3 position;
+attribute vec2 uv;
+
+uniform mat4 modelViewMatrix;
+uniform mat4 projectionMatrix;
+
+varying vec3 vPosition;
+varying vec2 vUv;
+
+void main() {
+	vUv = uv;
+	vPosition = position;
+	gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.);
+}
+</script>
+
+<script type="x-shader/x-fragment" id="backdrop-fs" >
+precision highp float;
+
+uniform vec3 lightPosition;
+uniform vec3 top;
+uniform vec3 bottom;
+uniform float time;
+
+varying vec3 vPosition;
+varying vec2 vUv;
+
+float random(vec2 n, float offset ){
+	return .5 - fract(sin(dot(n.xy + vec2( offset, 0. ), vec2(12.9898, 78.233)))* 43758.5453);
+}
+
+void main() {
+	float d = dot( normalize(lightPosition), normalize(vPosition));
+	d = .5 + .5 * d;
+	gl_FragColor = vec4(mix(bottom, top, d),1.);
+ 	gl_FragColor.rgb += vec3( .01 * random( vUv.xy, vPosition.x ) );
+ 	gl_FragColor.a = 1.5;
+}
+</script>
+
+
+<script type="x-shader/x-vertex" id="ortho-vs" >
+precision highp float;
+
+attribute vec3 position;
+attribute vec2 uv;
+
+uniform mat4 modelViewMatrix;
+uniform mat4 projectionMatrix;
+
+varying vec2 vUv;
+varying vec3 vPosition;
+
+void main() {
+
+	vUv = uv;
+    vPosition = position;
+	gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1. );
+
+}
+</script>
+
+<script type="x-shader/x-fragment" id="sim-fs" >
+precision highp float;
+
+uniform sampler2D source;
+uniform sampler2D seed;
+uniform vec2 resolution;
+uniform float time;
+uniform float persistence;
+uniform float speed;
+uniform float decay;
+uniform float spread;
+uniform float init;
+uniform float animateAll;
+
+varying vec2 vUv;
+
+vec4 mod289(vec4 x) {
+    return x - floor(x * (1.0 / 289.0)) * 289.0;
+}
+
+float mod289(float x) {
+    return x - floor(x * (1.0 / 289.0)) * 289.0;
+}
+
+vec4 permute(vec4 x) {
+    return mod289(((x*34.0)+1.0)*x);
+}
+
+float permute(float x) {
+    return mod289(((x*34.0)+1.0)*x);
+}
+
+
+vec4 taylorInvSqrt(vec4 r) {
+    return 1.79284291400159 - 0.85373472095314 * r;
+}
+
+float taylorInvSqrt(float r) {
+    return 1.79284291400159 - 0.85373472095314 * r;
+}
+
+vec4 grad4(float j, vec4 ip) {
+    const vec4 ones = vec4(1.0, 1.0, 1.0, -1.0);
+    vec4 p,s;
+
+    p.xyz = floor( fract (vec3(j) * ip.xyz) * 7.0) * ip.z - 1.0;
+    p.w = 1.5 - dot(abs(p.xyz), ones.xyz);
+    s = vec4(lessThan(p, vec4(0.0)));
+    p.xyz = p.xyz + (s.xyz*2.0 - 1.0) * s.www;
+
+    return p;
+}
+
+
+#define F4 0.309016994374947451
+
+vec4 simplexNoiseDerivatives (vec4 v) {
+    const vec4  C = vec4( 0.138196601125011,0.276393202250021,0.414589803375032,-0.447213595499958);
+
+    vec4 i  = floor(v + dot(v, vec4(F4)) );
+    vec4 x0 = v -   i + dot(i, C.xxxx);
+
+    vec4 i0;
+    vec3 isX = step( x0.yzw, x0.xxx );
+    vec3 isYZ = step( x0.zww, x0.yyz );
+    i0.x = isX.x + isX.y + isX.z;
+    i0.yzw = 1.0 - isX;
+    i0.y += isYZ.x + isYZ.y;
+    i0.zw += 1.0 - isYZ.xy;
+    i0.z += isYZ.z;
+    i0.w += 1.0 - isYZ.z;
+
+    vec4 i3 = clamp( i0, 0.0, 1.0 );
+    vec4 i2 = clamp( i0-1.0, 0.0, 1.0 );
+    vec4 i1 = clamp( i0-2.0, 0.0, 1.0 );
+
+    vec4 x1 = x0 - i1 + C.xxxx;
+    vec4 x2 = x0 - i2 + C.yyyy;
+    vec4 x3 = x0 - i3 + C.zzzz;
+    vec4 x4 = x0 + C.wwww;
+
+    i = mod289(i);
+    float j0 = permute( permute( permute( permute(i.w) + i.z) + i.y) + i.x);
+    vec4 j1 = permute( permute( permute( permute (
+             i.w + vec4(i1.w, i2.w, i3.w, 1.0 ))
+           + i.z + vec4(i1.z, i2.z, i3.z, 1.0 ))
+           + i.y + vec4(i1.y, i2.y, i3.y, 1.0 ))
+           + i.x + vec4(i1.x, i2.x, i3.x, 1.0 ));
+
+
+    vec4 ip = vec4(1.0/294.0, 1.0/49.0, 1.0/7.0, 0.0) ;
+
+    vec4 p0 = grad4(j0,   ip);
+    vec4 p1 = grad4(j1.x, ip);
+    vec4 p2 = grad4(j1.y, ip);
+    vec4 p3 = grad4(j1.z, ip);
+    vec4 p4 = grad4(j1.w, ip);
+
+    vec4 norm = taylorInvSqrt(vec4(dot(p0,p0), dot(p1,p1), dot(p2, p2), dot(p3,p3)));
+    p0 *= norm.x;
+    p1 *= norm.y;
+    p2 *= norm.z;
+    p3 *= norm.w;
+    p4 *= taylorInvSqrt(dot(p4,p4));
+
+    vec3 values0 = vec3(dot(p0, x0), dot(p1, x1), dot(p2, x2)); //value of contributions from each corner at point
+    vec2 values1 = vec2(dot(p3, x3), dot(p4, x4));
+
+    vec3 m0 = max(0.5 - vec3(dot(x0,x0), dot(x1,x1), dot(x2,x2)), 0.0); //(0.5 - x^2) where x is the distance
+    vec2 m1 = max(0.5 - vec2(dot(x3,x3), dot(x4,x4)), 0.0);
+
+    vec3 temp0 = -6.0 * m0 * m0 * values0;
+    vec2 temp1 = -6.0 * m1 * m1 * values1;
+
+    vec3 mmm0 = m0 * m0 * m0;
+    vec2 mmm1 = m1 * m1 * m1;
+
+    float dx = temp0[0] * x0.x + temp0[1] * x1.x + temp0[2] * x2.x + temp1[0] * x3.x + temp1[1] * x4.x + mmm0[0] * p0.x + mmm0[1] * p1.x + mmm0[2] * p2.x + mmm1[0] * p3.x + mmm1[1] * p4.x;
+    float dy = temp0[0] * x0.y + temp0[1] * x1.y + temp0[2] * x2.y + temp1[0] * x3.y + temp1[1] * x4.y + mmm0[0] * p0.y + mmm0[1] * p1.y + mmm0[2] * p2.y + mmm1[0] * p3.y + mmm1[1] * p4.y;
+    float dz = temp0[0] * x0.z + temp0[1] * x1.z + temp0[2] * x2.z + temp1[0] * x3.z + temp1[1] * x4.z + mmm0[0] * p0.z + mmm0[1] * p1.z + mmm0[2] * p2.z + mmm1[0] * p3.z + mmm1[1] * p4.z;
+    float dw = temp0[0] * x0.w + temp0[1] * x1.w + temp0[2] * x2.w + temp1[0] * x3.w + temp1[1] * x4.w + mmm0[0] * p0.w + mmm0[1] * p1.w + mmm0[2] * p2.w + mmm1[0] * p3.w + mmm1[1] * p4.w;
+
+    return vec4(dx, dy, dz, dw) * 49.0;
+}
+
+vec3 curlNoise(vec3 p) {
+
+	float t = .01 * time / ( 1000./60. );
+
+	vec4 xNoisePotentialDerivatives = vec4(0.0);
+	vec4 yNoisePotentialDerivatives = vec4(0.0);
+	vec4 zNoisePotentialDerivatives = vec4(0.0);
+
+	for (int i = 0; i < 3; ++i) {
+	    float scale = (1.0 / 2.0) * pow(2.0, float(i));
+
+	    float noiseScale = pow(persistence, float(i));
+	    if (persistence == 0.0 && i == 0) { //fix undefined behaviour
+	        noiseScale = 1.0;
+	    }
+
+	    xNoisePotentialDerivatives += simplexNoiseDerivatives(vec4(p * pow(2.0, float(i)), t)) * noiseScale * scale;
+	    yNoisePotentialDerivatives += simplexNoiseDerivatives(vec4((p + vec3(123.4, 129845.6, -1239.1)) * pow(2.0, float(i)), t)) * noiseScale * scale;
+	    zNoisePotentialDerivatives += simplexNoiseDerivatives(vec4((p + vec3(-9519.0, 9051.0, -123.0)) * pow(2.0, float(i)), t)) * noiseScale * scale;
+	}
+
+	vec3 noiseVelocity = vec3(
+		zNoisePotentialDerivatives[1] - yNoisePotentialDerivatives[2],
+		xNoisePotentialDerivatives[2] - zNoisePotentialDerivatives[0],
+		yNoisePotentialDerivatives[0] - xNoisePotentialDerivatives[1] );
+
+	return noiseVelocity;
+
+}
+
+void main() {
+	vec4 s = texture2D(source,vUv);
+	if( s.w <= 0. ) {
+		s = texture2D(seed,vUv);
+		//s.xyz *= spread;
+		if( init == 0. ) s.w = 100.;
+	}
+    else if (animateAll == 1.) s.xyz += speed * curlNoise( .01 * s.xyz);
+    
+    else{
+		 if( s.z > 50. ) {
+        s.xyz += 0.001 * curlNoise( .01 * s.xyz);
+        }
+        else if( s.z < 50. && s.z > 30. ) {
+        s.xyz += 0.01 * curlNoise( .01 * s.xyz);
+        }
+        else if( s.z < 30. && s.z > 10. ) {
+        s.xyz += 0.03 * curlNoise( .01 * s.xyz);
+        }
+        
+        else if( s.z < 10.  )
+        {
+        s.xyz += speed * curlNoise( .01 * s.xyz);
+        }
+		s.w -= decay;
+	}
+	gl_FragColor = s;
+}
+</script>
+
+
+<script id="vertexShader" type="x-shader/x-vertex">
+precision highp float;
+
+attribute vec3 position;
+attribute vec3 normal;
+attribute vec2 uv;
+attribute vec2 lookup;
+
+uniform mat4 modelMatrix;
+uniform mat4 modelViewMatrix;
+uniform mat4 projectionMatrix;
+uniform mat3 normalMatrix;
+
+uniform sampler2D curPos;
+uniform sampler2D prevPos;
+uniform vec3 scale;
+uniform float squashiness;
+
+uniform mat4 shadowMVP;
+uniform mat4 shadowV;
+uniform mat4 shadowP;
+uniform vec3 lightPosition;
+
+varying vec2 vUv;
+varying vec3 vNormal;
+varying float vLife;
+varying vec4 vShadowCoord;
+varying float vDiffuse;
+varying float vSpecular;
+varying float vBias;
+varying vec3 vColor;
+
+
+mat3 calcLookAtMatrix(vec3 origin, vec3 target, float roll) {
+	vec3 rr = vec3(sin(roll), cos(roll), 0.0);
+	vec3 ww = normalize(target - origin);
+	vec3 uu = normalize(cross(ww, rr));
+	vec3 vv = normalize(cross(uu, ww));
+
+	return mat3(uu, vv, ww);
+}
+
+const mat4 biasMatrix = mat4(
+	0.5, 0.0, 0.0, 0.0,
+	0.0, 0.5, 0.0, 0.0,
+	0.0, 0.0, 0.5, 0.0,
+	0.5, 0.5, 0.5, 1.0
+);
+
+float scaleVertex(float value) {
+    if (value <= 50.0) {
+        return 1.0; // No scaling for values <= 50
+    } else if (value >= 100.0) {
+        return 0.0; // Scale to 0 for values >= 100
+    } else {
+        return 1.0 - (value - 50.0) / 50.0; // Linear scaling between 50 and 100
+    }
+}
+
+void main() {
+    vec3 sc = vec3(4.0);
+	vec2 luv = lookup;
+	vec4 i = texture2D( curPos, luv );
+	vLife = i.w;
+	vec4 p = texture2D( prevPos, luv );
+	vec3 orientation = i.xyz - p.xyz;
+	mat3 rot = calcLookAtMatrix( p.xyz, i.xyz, 0. );
+	float squash = length(orientation);
+	squash = clamp( squash, 1., 100. );
+    if(p.z > 0.) sc = vec3(2.);
+	vec3 vPosition = rot * ( position * scaleVertex(p.z)*scale * mix( vec3(1.),vec3(1. / squash,1. / squash,squash), squashiness ) );
+	vPosition += mix(p.xyz, i.xyz, .5);
+	vNormal = normalMatrix * rot * normal;
+
+	if( i.w == 100. || p.w == 100. ) {
+		vPosition.x += 100000.;
+	}
+
+	vUv = uv;
+	vShadowCoord = biasMatrix * shadowP * modelMatrix * shadowV * vec4(vPosition,1.);
+
+	vec4 mvp = modelViewMatrix * vec4( vPosition, 1.0 );
+	vPosition = mvp.xyz;
+
+	vec3 L = normalize( lightPosition - mvp.xyz );
+	vec3 E = normalize(-mvp.xyz);
+
+	vec3 n = normalize(vNormal);
+	vDiffuse = max( 0., dot( L, n ) );
+	float theta = clamp( -vDiffuse, 0., 1. );
+	vBias = max(.002 * (1.0 - dot(n, L)), .002);
+	vec3 R = normalize(-reflect(L,n));
+    vSpecular = 4. * pow(max(dot(R,E),0.0),60.);
+    vColor = vec3( lookup, 0.);
+
+	gl_Position = projectionMatrix * mvp;
+
+}
+</script>
+
+<script id="fragmentShader" type="x-shader/x-fragment">
+precision highp float;
+
+uniform sampler2D map;
+uniform float shadow;
+uniform sampler2D depthTexture;
+uniform vec2 resolution;
+
+varying vec2 vUv;
+varying vec3 vNormal;
+varying float vLife;
+varying vec4 vShadowCoord;
+varying float vDiffuse;
+varying float vSpecular;
+varying float vBias;
+varying vec3 vColor;
+varying vec3 p;
+float random(vec3 seed, int i){
+	vec4 seed4 = vec4(seed,i);
+	float dot_product = dot(seed4, vec4(12.9898,78.233,45.164,94.673));
+	return fract(sin(dot_product) * 43758.5453);
+}
+
+float sampleVisibility( vec3 coord, float bias ) {
+	float depth = texture2D( depthTexture, coord.xy ).r;
+	float visibility  = ( coord.z - depth > bias ) ? 0. : 1.;
+	return visibility;
+}
+
+vec3 hsv2rgb(vec3 c) {
+	vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);
+	vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);
+	return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);
+}
+
+void main() {
+
+	if( shadow == 1. ) {
+		gl_FragColor = vec4( vec3( gl_FragCoord.z ), 1. );
+		return;
+	}
+
+	const int NUM_TAPS = 12;
+
+	vec2 poissonDisk[12];
+	poissonDisk[0 ] = vec2( -0.94201624, -0.39906216 );
+	poissonDisk[1 ] = vec2( 0.94558609, -0.76890725 );
+	poissonDisk[2 ] = vec2( -0.094184101, -0.92938870 );
+	poissonDisk[3 ] = vec2( 0.34495938, 0.29387760 );
+	poissonDisk[4 ] = vec2( -0.91588581, 0.45771432 );
+	poissonDisk[5 ] = vec2( -0.81544232, -0.87912464 );
+	poissonDisk[6 ] = vec2( -0.38277543, 0.27676845 );
+	poissonDisk[7 ] = vec2( 0.97484398, 0.75648379 );
+	poissonDisk[8 ] = vec2( 0.44323325, -0.97511554 );
+	poissonDisk[9 ] = vec2( 0.53742981, -0.47373420 );
+	poissonDisk[10] = vec2( -0.26496911, -0.41893023 );
+	poissonDisk[11] = vec2( 0.79197514, 0.19090188 );
+
+	float occlusion = 0.;
+	vec3 shadowCoord = vShadowCoord.xyz / vShadowCoord.w;
+
+	for (int i=0; i < NUM_TAPS; i++) {
+		vec2 r = .0005 * vec2(random(gl_FragCoord.xyz,1), random(gl_FragCoord.zxy,1));
+		occlusion += sampleVisibility( shadowCoord + vec3(poissonDisk[i] / 700. + 0.*r, 0. ), vBias );
+	}
+	occlusion /= float( NUM_TAPS );
+	float l = vLife/100.;
+
+	gl_FragColor.rgb = hsv2rgb( vec3(0.4 + .1 * vColor.x, 1. - .25 * l , (.5 + .5 *vDiffuse ) * ( .10   + .75 * occlusion  ) ) );
+	gl_FragColor.rgb += .1 * vec3(55.,85.,149.)/255.;
+	gl_FragColor.a = length( gl_FragColor.rgb) + .2 * ( exp( l ) -1. );
+	gl_FragColor.rgb += vec3(vSpecular) * occlusion ;
+    
+}
+</script>
+
+<script id="highlight-fs" type="x-shader/x-fragment">
+precision highp float;
+
+uniform sampler2D source;
+uniform float threshold;
+
+varying vec2 vUv;
+varying vec3 vPosition;
+void main() {
+	vec4 c = texture2D( source, vUv );
+	float a = c.a - threshold;
+	gl_FragColor = vec4( c.xyz * a *0.3, 1.0 );
+	//gl_FragColor = vec4(c.a);
+}
+</script>
+
+<script id="blur-fs" type="x-shader/x-fragment">
+precision highp float;
+
+uniform vec2 resolution;
+uniform sampler2D source;
+uniform vec2 delta;
+
+varying vec2 vUv;
+
+vec4 blur5(sampler2D image, vec2 uv, vec2 resolution, vec2 direction) {
+  vec4 color = vec4(0.0);
+  vec2 off1 = vec2(1.3333333333333333) * direction;
+  color += texture2D(image, uv) * 0.29411764705882354;
+  color += texture2D(image, uv + (off1 / resolution)) * 0.35294117647058826;
+  color += texture2D(image, uv - (off1 / resolution)) * 0.35294117647058826;
+  return color;
+}
+
+vec4 blur9(sampler2D image, vec2 uv, vec2 resolution, vec2 direction) {
+  vec4 color = vec4(0.0);
+  vec2 off1 = vec2(1.3846153846) * direction;
+  vec2 off2 = vec2(3.2307692308) * direction;
+  color += texture2D(image, uv) * 0.2270270270;
+  color += texture2D(image, uv + (off1 / resolution)) * 0.3162162162;
+  color += texture2D(image, uv - (off1 / resolution)) * 0.3162162162;
+  color += texture2D(image, uv + (off2 / resolution)) * 0.0702702703;
+  color += texture2D(image, uv - (off2 / resolution)) * 0.0702702703;
+  return color;
+}
+
+vec4 blur13(sampler2D image, vec2 uv, vec2 resolution, vec2 direction) {
+  vec4 color = vec4(0.0);
+  vec2 off1 = vec2(1.411764705882353) * direction;
+  vec2 off2 = vec2(3.2941176470588234) * direction;
+  vec2 off3 = vec2(5.176470588235294) * direction;
+  color += texture2D(image, uv) * 0.1964825501511404;
+  color += texture2D(image, uv + (off1 / resolution)) * 0.2969069646728344;
+  color += texture2D(image, uv - (off1 / resolution)) * 0.2969069646728344;
+  color += texture2D(image, uv + (off2 / resolution)) * 0.09447039785044732;
+  color += texture2D(image, uv - (off2 / resolution)) * 0.09447039785044732;
+  color += texture2D(image, uv + (off3 / resolution)) * 0.010381362401148057;
+  color += texture2D(image, uv - (off3 / resolution)) * 0.010381362401148057;
+  return color;
+}
+
+void main() {
+	vec4 b  = blur13( source, vUv, resolution, delta );
+     //b.a = 0.0;
+	gl_FragColor = b;
+}
+</script>
+
+<script id="bloom-fs" type="x-shader/x-fragment">
+precision highp float;
+
+uniform sampler2D base;
+uniform sampler2D level0;
+uniform sampler2D level1;
+uniform sampler2D level2;
+uniform sampler2D level3;
+uniform sampler2D level4;
+
+uniform vec2 resolution;
+uniform float boost;
+uniform float reduction;
+uniform float levels;
+uniform float time;
+uniform float amount;
+
+varying vec2 vUv;
+
+#define FXAA_SPAN_MAX 8.0
+#define FXAA_REDUCE_MUL   (1.0/FXAA_SPAN_MAX)
+#define FXAA_REDUCE_MIN   (1.0/128.0)
+#define FXAA_SUBPIX_SHIFT (1.0/4.0)
+vec3 FxaaPixelShader( vec4 uv, sampler2D tex, vec2 rcpFrame) {
+    vec3 rgbNW = texture2D(tex, uv.zw ).xyz;
+    vec3 rgbNE = texture2D(tex, uv.zw + vec2(1,0)*rcpFrame.xy ).xyz;
+    vec3 rgbSW = texture2D(tex, uv.zw + vec2(0,1)*rcpFrame.xy ).xyz;
+    vec3 rgbSE = texture2D(tex, uv.zw + vec2(1,1)*rcpFrame.xy ).xyz;
+    vec3 rgbM  = texture2D(tex, uv.xy ).xyz;
+    vec3 luma = vec3(0.299, 0.587, 0.114);
+    float lumaNW = dot(rgbNW, luma);
+    float lumaNE = dot(rgbNE, luma);
+    float lumaSW = dot(rgbSW, luma);
+    float lumaSE = dot(rgbSE, luma);
+    float lumaM  = dot(rgbM,  luma);
+    float lumaMin = min(lumaM, min(min(lumaNW, lumaNE), min(lumaSW, lumaSE)));
+    float lumaMax = max(lumaM, max(max(lumaNW, lumaNE), max(lumaSW, lumaSE)));
+    vec2 dir;
+    dir.x = -((lumaNW + lumaNE) - (lumaSW + lumaSE));
+    dir.y =  ((lumaNW + lumaSW) - (lumaNE + lumaSE));
+    float dirReduce = max(
+        (lumaNW + lumaNE + lumaSW + lumaSE) * (0.25 * FXAA_REDUCE_MUL),
+        FXAA_REDUCE_MIN);
+    float rcpDirMin = 1.0/(min(abs(dir.x), abs(dir.y)) + dirReduce);
+    dir = min(vec2( FXAA_SPAN_MAX,  FXAA_SPAN_MAX),
+          max(vec2(-FXAA_SPAN_MAX, -FXAA_SPAN_MAX),
+          dir * rcpDirMin)) * rcpFrame.xy;
+    vec3 rgbA = (1.0/2.0) * (
+        texture2D(tex, uv.xy + dir * (1.0/3.0 - 0.5) ).xyz +
+        texture2D(tex, uv.xy + dir * (2.0/3.0 - 0.5) ).xyz);
+    vec3 rgbB = rgbA * (1.0/2.0) + (1.0/4.0) * (
+        texture2D(tex, uv.xy + dir * (0.0/3.0 - 0.5) ).xyz +
+        texture2D(tex, uv.xy + dir * (3.0/3.0 - 0.5) ).xyz);
+    float lumaB = dot(rgbB, luma);
+    if((lumaB < lumaMin) || (lumaB > lumaMax)) return rgbA;
+    return rgbB;
+}
+
+float random(vec2 n, float offset ){
+	return .5 - fract(sin(dot(n.xy + vec2( offset, 0. ), vec2(12.9898, 78.233)))* 43758.5453);
+}
+
+float luma(vec3 color) {
+  return dot(color, vec3(0.299, 0.587, 0.114));
+}
+
+float luma(vec4 color) {
+  return dot(color.rgb, vec3(0.299, 0.587, 0.114));
+}
+
+void main() {
+	vec2 res = 1. / resolution;
+	vec2 uv = vUv;
+	vec4 aauv = vec4( uv, uv - (res * (0.5 + FXAA_SUBPIX_SHIFT)));
+	vec4 color = vec4(FxaaPixelShader( aauv * 0.9, base, res * 1.5 ),1.);
+
+	if( levels > 0. ) color += 0.5 * texture2D( level0, vUv );
+	if( levels > 1. ) color += 1. * texture2D( level1, vUv );
+	if( levels > 2. ) color += 1.4 * texture2D( level2, vUv );
+	if( levels > 3. ) color += 1.6 * texture2D( level3, vUv );
+	if( levels > 4. ) color += 1.8 * texture2D( level4, vUv );
+
+	vec2 position = vUv - .5;
+	float vignette = length( position );
+    vignette = boost - vignette * reduction;
+
+ 	color += vec4( vec3( amount * random( vUv, time ) ), 1. );
+    //color.rgb *= vignette;
+     // Set alpha based on vignette and ensure transparency
+   //color.a = vignette;
+
+	gl_FragColor = color;
+    //gl_FragColor = vec4(luma(color));
+}
+</script>
+<script type="x-shader/x-vertex" id="linevertexShader">
+
+  varying vec3 vPosition;
+        void main() {
+            vPosition = position;
+            gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+        }
+
+</script>
+
+<script type="x-shader/x-fragment" id="linefragmentShader">
+
+ varying vec3 vPosition;
+        void main() {
+            if (vPosition.z < 10.5) {
+                discard;
+            }
+            gl_FragColor = vec4(0.11, 0.49, 0.33, 1.0); // Green color
+}
+</script>
+    <script>
+  const noiseV3 = `
+  //	Simplex 4D Noise 
+//	by Ian McEwan, Ashima Arts
+//
+vec4 permute(vec4 x){return mod(((x*34.0)+1.0)*x, 289.0);}
+float permute(float x){return floor(mod(((x*34.0)+1.0)*x, 289.0));}
+vec4 taylorInvSqrt(vec4 r){return 1.79284291400159 - 0.85373472095314 * r;}
+float taylorInvSqrt(float r){return 1.79284291400159 - 0.85373472095314 * r;}
+
+vec4 grad4(float j, vec4 ip){
+  const vec4 ones = vec4(1.0, 1.0, 1.0, -1.0);
+  vec4 p,s;
+
+  p.xyz = floor( fract (vec3(j) * ip.xyz) * 7.0) * ip.z - 1.0;
+  p.w = 1.5 - dot(abs(p.xyz), ones.xyz);
+  s = vec4(lessThan(p, vec4(0.0)));
+  p.xyz = p.xyz + (s.xyz*2.0 - 1.0) * s.www; 
+
+  return p;
+}
+
+float snoise(vec4 v){
+  const vec2  C = vec2( 0.138196601125010504,  // (5 - sqrt(5))/20  G4
+                        0.309016994374947451); // (sqrt(5) - 1)/4   F4
+// First corner
+  vec4 i  = floor(v + dot(v, C.yyyy) );
+  vec4 x0 = v -   i + dot(i, C.xxxx);
+
+// Other corners
+
+// Rank sorting originally contributed by Bill Licea-Kane, AMD (formerly ATI)
+  vec4 i0;
+
+  vec3 isX = step( x0.yzw, x0.xxx );
+  vec3 isYZ = step( x0.zww, x0.yyz );
+//  i0.x = dot( isX, vec3( 1.0 ) );
+  i0.x = isX.x + isX.y + isX.z;
+  i0.yzw = 1.0 - isX;
+
+//  i0.y += dot( isYZ.xy, vec2( 1.0 ) );
+  i0.y += isYZ.x + isYZ.y;
+  i0.zw += 1.0 - isYZ.xy;
+
+  i0.z += isYZ.z;
+  i0.w += 1.0 - isYZ.z;
+
+  // i0 now contains the unique values 0,1,2,3 in each channel
+  vec4 i3 = clamp( i0, 0.0, 1.0 );
+  vec4 i2 = clamp( i0-1.0, 0.0, 1.0 );
+  vec4 i1 = clamp( i0-2.0, 0.0, 1.0 );
+
+  //  x0 = x0 - 0.0 + 0.0 * C 
+  vec4 x1 = x0 - i1 + 1.0 * C.xxxx;
+  vec4 x2 = x0 - i2 + 2.0 * C.xxxx;
+  vec4 x3 = x0 - i3 + 3.0 * C.xxxx;
+  vec4 x4 = x0 - 1.0 + 4.0 * C.xxxx;
+
+// Permutations
+  i = mod(i, 289.0); 
+  float j0 = permute( permute( permute( permute(i.w) + i.z) + i.y) + i.x);
+  vec4 j1 = permute( permute( permute( permute (
+             i.w + vec4(i1.w, i2.w, i3.w, 1.0 ))
+           + i.z + vec4(i1.z, i2.z, i3.z, 1.0 ))
+           + i.y + vec4(i1.y, i2.y, i3.y, 1.0 ))
+           + i.x + vec4(i1.x, i2.x, i3.x, 1.0 ));
+// Gradients
+// ( 7*7*6 points uniformly over a cube, mapped onto a 4-octahedron.)
+// 7*7*6 = 294, which is close to the ring size 17*17 = 289.
+
+  vec4 ip = vec4(1.0/294.0, 1.0/49.0, 1.0/7.0, 0.0) ;
+
+  vec4 p0 = grad4(j0,   ip);
+  vec4 p1 = grad4(j1.x, ip);
+  vec4 p2 = grad4(j1.y, ip);
+  vec4 p3 = grad4(j1.z, ip);
+  vec4 p4 = grad4(j1.w, ip);
+
+// Normalise gradients
+  vec4 norm = taylorInvSqrt(vec4(dot(p0,p0), dot(p1,p1), dot(p2, p2), dot(p3,p3)));
+  p0 *= norm.x;
+  p1 *= norm.y;
+  p2 *= norm.z;
+  p3 *= norm.w;
+  p4 *= taylorInvSqrt(dot(p4,p4));
+
+// Mix contributions from the five corners
+  vec3 m0 = max(0.6 - vec3(dot(x0,x0), dot(x1,x1), dot(x2,x2)), 0.0);
+  vec2 m1 = max(0.6 - vec2(dot(x3,x3), dot(x4,x4)            ), 0.0);
+  m0 = m0 * m0;
+  m1 = m1 * m1;
+  return 49.0 * ( dot(m0*m0, vec3( dot( p0, x0 ), dot( p1, x1 ), dot( p2, x2 )))
+               + dot(m1*m1, vec2( dot( p3, x3 ), dot( p4, x4 ) ) ) ) ;
+
+}
+  `;
+  const noise = `
+  // https://gist.github.com/patriciogonzalezvivo/670c22f3966e662d2f83
+  /*float rand(vec2 c){
+	return fract(sin(dot(c.xy ,vec2(12.9898,78.233))) * 43758.5453);
+}*/
+
+float noise(vec2 p, float freq ){
+	float unit = 2.; //screenWidth/freq;
+	vec2 ij = floor(p/unit);
+	vec2 xy = mod(p,unit)/unit;
+	//xy = 3.*xy*xy-2.*xy*xy*xy;
+	xy = .5*(1.-cos(PI*xy));
+	float a = rand((ij+vec2(0.,0.)));
+	float b = rand((ij+vec2(1.,0.)));
+	float c = rand((ij+vec2(0.,1.)));
+	float d = rand((ij+vec2(1.,1.)));
+	float x1 = mix(a, b, xy.x);
+	float x2 = mix(c, d, xy.x);
+	return mix(x1, x2, xy.y);
+}
+
+float pNoise(vec2 p, int res){
+	float persistance = .5;
+	float n = 0.;
+	float normK = 0.;
+	float f = 4.;
+	float amp = 1.;
+	int iCount = 0;
+	for (int i = 0; i<50; i++){
+		n+=amp*noise(p, f);
+		f*=2.;
+		normK+=amp;
+		amp*=persistance;
+		if (iCount == res) break;
+		iCount++;
+	}
+	float nf = n/normK;
+	return nf*nf*nf*nf;
+}
+  `;
+  const flVert = `
+  #include <common>
+		#include <color_pars_vertex>
+		#include <fog_pars_vertex>
+		#include <logdepthbuf_pars_vertex>
+		#include <clipping_planes_pars_vertex>
+		uniform float linewidth;
+		uniform vec2 resolution;
+		attribute vec3 instanceStart;
+		attribute vec3 instanceEnd;
+		attribute vec3 instanceColorStart;
+		attribute vec3 instanceColorEnd;
+		#ifdef WORLD_UNITS
+			varying vec4 worldPos;
+			varying vec3 worldStart;
+			varying vec3 worldEnd;
+		  varying vec2 vUv;
+		#else
+			varying vec2 vUv;
+		#endif
+
+			attribute float instanceDistanceStart;
+			attribute float instanceDistanceEnd;
+			varying float vLineDistance;
+
+    void trimSegment( const in vec4 start, inout vec4 end ) {
+			// trim end segment so it terminates between the camera plane and the near plane
+			// conservative estimate of the near plane
+			float a = projectionMatrix[ 2 ][ 2 ]; // 3nd entry in 3th column
+			float b = projectionMatrix[ 3 ][ 2 ]; // 3nd entry in 4th column
+			float nearEstimate = - 0.5 * b / a;
+			float alpha = ( nearEstimate - start.z ) / ( end.z - start.z );
+			end.xyz = mix( start.xyz, end.xyz, alpha );
+		}
+		void main() {
+			#ifdef USE_COLOR
+				vColor.xyz = ( position.y < 0.5 ) ? instanceColorStart : instanceColorEnd;
+			#endif
+				vLineDistance = ( position.y < 0.5 ) ? instanceDistanceStart : instanceDistanceEnd;
+				vUv = uv;
+			float aspect = resolution.x / resolution.y;
+			// camera space
+			vec4 start = modelViewMatrix * vec4( instanceStart, 1.0 );
+			vec4 end = modelViewMatrix * vec4( instanceEnd, 1.0 );
+			#ifdef WORLD_UNITS
+				worldStart = start.xyz;
+				worldEnd = end.xyz;
+			#else
+				vUv = uv;
+			#endif
+			// special case for perspective projection, and segments that terminate either in, or behind, the camera plane
+			// clearly the gpu firmware has a way of addressing this issue when projecting into ndc space
+			// but we need to perform ndc-space calculations in the shader, so we must address this issue directly
+			// perhaps there is a more elegant solution -- WestLangley
+			bool perspective = ( projectionMatrix[ 2 ][ 3 ] == - 1.0 ); // 4th entry in the 3rd column
+			if ( perspective ) {
+				if ( start.z < 0.0 && end.z >= 0.0 ) {
+					trimSegment( start, end );
+				} else if ( end.z < 0.0 && start.z >= 0.0 ) {
+					trimSegment( end, start );
+				}
+			}
+			// clip space
+			vec4 clipStart = projectionMatrix * start;
+			vec4 clipEnd = projectionMatrix * end;
+			// ndc space
+			vec3 ndcStart = clipStart.xyz / clipStart.w;
+			vec3 ndcEnd = clipEnd.xyz / clipEnd.w;
+			// direction
+			vec2 dir = ndcEnd.xy - ndcStart.xy;
+			// account for clip-space aspect ratio
+			dir.x *= aspect;
+			dir = normalize( dir );
+			#ifdef WORLD_UNITS
+				// get the offset direction as perpendicular to the view vector
+				vec3 worldDir = normalize( end.xyz - start.xyz );
+				vec3 offset;
+				if ( position.y < 0.5 ) {
+					offset = normalize( cross( start.xyz, worldDir ) );
+				} else {
+					offset = normalize( cross( end.xyz, worldDir ) );
+				}
+				// sign flip
+				if ( position.x < 0.0 ) offset *= - 1.0;
+				float forwardOffset = dot( worldDir, vec3( 0.0, 0.0, 1.0 ) );
+				// don't extend the line if we're rendering dashes because we
+				// won't be rendering the endcaps
+				#ifndef USE_DASH
+					// extend the line bounds to encompass  endcaps
+					start.xyz += - worldDir * linewidth * 0.5;
+					end.xyz += worldDir * linewidth * 0.5;
+					// shift the position of the quad so it hugs the forward edge of the line
+					offset.xy -= dir * forwardOffset;
+					offset.z += 0.5;
+				#endif
+				// endcaps
+				if ( position.y > 1.0 || position.y < 0.0 ) {
+					offset.xy += dir * 2.0 * forwardOffset;
+				}
+				// adjust for linewidth
+				offset *= linewidth * 0.5;
+				// set the world position
+				worldPos = ( position.y < 0.5 ) ? start : end;
+				worldPos.xyz += offset;
+				// project the worldpos
+				vec4 clip = projectionMatrix * worldPos;
+				// shift the depth of the projected points so the line
+				// segements overlap neatly
+				vec3 clipPose = ( position.y < 0.5 ) ? ndcStart : ndcEnd;
+				clip.z = clipPose.z * clip.w;
+			#else
+				vec2 offset = vec2( dir.y, - dir.x );
+				// undo aspect ratio adjustment
+				dir.x /= aspect;
+				offset.x /= aspect;
+				// sign flip
+				if ( position.x < 0.0 ) offset *= - 1.0;
+				// endcaps
+				if ( position.y < 0.0 ) {
+					offset += - dir;
+				} else if ( position.y > 1.0 ) {
+					offset += dir;
+				}
+				// adjust for linewidth
+				offset *= linewidth;
+				// adjust for clip-space to screen-space conversion // maybe resolution should be based on viewport ...
+				offset /= resolution.y;
+				// select end
+				vec4 clip = ( position.y < 0.5 ) ? clipStart : clipEnd;
+				// back to clip space
+				offset *= clip.w;
+				clip.xy += offset;
+			#endif
+			gl_Position = clip;
+			vec4 mvPosition = ( position.y < 0.5 ) ? start : end; // this is an approximation
+			#include <logdepthbuf_vertex>
+			#include <clipping_planes_vertex>
+			#include <fog_vertex>
+		}
+  `;
+  const flFrag = `
+  uniform float time;
+  uniform float bloom;
+  uniform vec3 diffuse;
+		uniform float opacity;
+		uniform float linewidth;
+		#ifdef USE_DASH
+			uniform float dashOffset;
+			uniform float dashSize;
+			uniform float gapSize;
+		#endif
+		varying float vLineDistance;
+		#ifdef WORLD_UNITS
+			varying vec4 worldPos;
+			varying vec3 worldStart;
+			varying vec3 worldEnd;
+		  varying vec2 vUv;
+		#else
+			varying vec2 vUv;
+		#endif
+		#include <common>
+		#include <color_pars_fragment>
+		#include <fog_pars_fragment>
+		#include <logdepthbuf_pars_fragment>
+		#include <clipping_planes_pars_fragment>
+		vec2 closestLineToLine(vec3 p1, vec3 p2, vec3 p3, vec3 p4) {
+			float mua;
+			float mub;
+			vec3 p13 = p1 - p3;
+			vec3 p43 = p4 - p3;
+			vec3 p21 = p2 - p1;
+			float d1343 = dot( p13, p43 );
+			float d4321 = dot( p43, p21 );
+			float d1321 = dot( p13, p21 );
+			float d4343 = dot( p43, p43 );
+			float d2121 = dot( p21, p21 );
+			float denom = d2121 * d4343 - d4321 * d4321;
+			float numer = d1343 * d4321 - d1321 * d4343;
+			mua = numer / denom;
+			mua = clamp( mua, 0.0, 1.0 );
+			mub = ( d1343 + d4321 * ( mua ) ) / d4343;
+			mub = clamp( mub, 0.0, 1.0 );
+			return vec2( mua, mub );
+		}
+    ${noise}
+		void main() {
+			#include <clipping_planes_fragment>
+			#ifdef USE_DASH
+				if ( vUv.y < - 1.0 || vUv.y > 1.0 ) discard; // discard endcaps
+				if ( mod( vLineDistance + dashOffset, dashSize + gapSize ) > dashSize ) discard; // todo - FIX
+			#endif
+			float alpha = opacity;
+			#ifdef WORLD_UNITS
+				// Find the closest points on the view ray and the line segment
+				vec3 rayEnd = normalize( worldPos.xyz ) * 1e5;
+				vec3 lineDir = worldEnd - worldStart;
+				vec2 params = closestLineToLine( worldStart, worldEnd, vec3( 0.0, 0.0, 0.0 ), rayEnd );
+				vec3 p1 = worldStart + lineDir * params.x;
+				vec3 p2 = rayEnd * params.y;
+				vec3 delta = p1 - p2;
+				float len = length( delta );
+				float norm = len / linewidth;
+				#ifndef USE_DASH
+					#ifdef USE_ALPHA_TO_COVERAGE
+						float dnorm = fwidth( norm );
+						alpha = 1.0 - smoothstep( 0.5 - dnorm, 0.5 + dnorm, norm );
+					#else
+						if ( norm > 0.5 ) {
+							discard;
+						}
+					#endif
+				#endif
+			#else
+				#ifdef USE_ALPHA_TO_COVERAGE
+					// artifacts appear on some hardware if a derivative is taken within a conditional
+					float a = vUv.x;
+					float b = ( vUv.y > 0.0 ) ? vUv.y - 1.0 : vUv.y + 1.0;
+					float len2 = a * a + b * b;
+					float dlen = fwidth( len2 );
+					if ( abs( vUv.y ) > 1.0 ) {
+						alpha = 1.0 - smoothstep( 1.0 - dlen, 1.0 + dlen, len2 );
+					}
+				#else
+					if ( abs( vUv.y ) > 1.0 ) {
+						float a = vUv.x;
+						float b = ( vUv.y > 0.0 ) ? vUv.y - 1.0 : vUv.y + 1.0;
+						float len2 = a * a + b * b;
+						if ( len2 > 1.0 ) discard;
+					}
+				#endif
+			#endif
+      
+      float pn1 = abs(pNoise(vec2(vLineDistance * 0.05, time), 3)) * 0.75;
+      float pn2 = pNoise(vec2(vLineDistance * 25. + time * 4., 0.123), 10) * 0.5 + 0.5;
+      pn2 = clamp(pow(pn2, 4.), 0., 1.);
+      vec3 c = mix(vec3(0, 0, 0.25), diffuse, pn1);
+      c = mix(c, diffuse, pn2);
+			vec4 diffuseColor = vec4( c, alpha );
+      
+			#include <logdepthbuf_fragment>
+			#include <color_fragment>
+			gl_FragColor = vec4( diffuseColor.rgb, alpha );
+			#include <tonemapping_fragment>
+			#include <encodings_fragment>
+			#include <fog_fragment>
+			#include <premultiplied_alpha_fragment>
+      
+      vec3 col = gl_FragColor.rgb;
+      gl_FragColor.rgb = mix(gl_FragColor.rgb, vec3(0), bloom);
+      gl_FragColor.rgb = mix(gl_FragColor.rgb, mix(vec3(1), col, bloom), pn2);
+		}
+  `;
+  
+</script>
+<script src="main.js" type="module"></script>
+
+  
+</body>
 </html>
